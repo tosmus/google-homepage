@@ -1,0 +1,299 @@
+.google-image{
+    position: fixed;
+    margin-left: 800px;
+    margin-right: 100px;
+    margin-top: 190px;
+    height: 166px;
+}
+
+ul {
+    list-style-type: none;
+}
+/*
+ footer{    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(138, 136, 136);
+}
+*/
+
+
+.advertising{
+    color: rgb(90, 90, 90);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.1rem;
+    right: -50px;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.business{
+    color: rgb(90, 90, 90);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: -140px;
+    height: 2.1rem;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.how-search-works{
+    color: rgb(90, 90, 90);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: -220px;
+    height: 2.1rem;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.privacy {
+    color: rgb(90, 90, 90);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: -1700px;
+    height: 2.1rem;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.terms {
+    color:rgb(90, 90, 90);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: -1770px;
+    height: 2.1rem;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.settings {
+    color:rgb(90, 90, 90);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: -1830px;
+    height: 2.1rem;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 80%;    
+}
+
+.navbar {
+    background-color: rgba(224, 223, 223, 0.603);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0px;
+    height: 3.4rem;
+    opacity: 1;
+}
+
+.about {
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    right: -30px;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+    
+    /*
+    color: rgb(29, 28, 28);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: -20px;
+    height: -1rem;
+    text-decoration: none;
+    */
+}
+
+.store {
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    right: -90px;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.gmail {
+    color:rgb(0, 0, 0);
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    right: -1650px;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.images{
+    color:rgb(0, 0, 0);
+    display: block;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    right: -1700px;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.search-bar {
+    position: fixed;    
+    top: 360px;
+    width: 550px;
+    right: 675px;
+    opacity: 50%;  
+    border-radius: 25px;
+    border: 1.5px solid #bdbcbc;
+    padding: 15px;     
+    }
+
+.search-bar:hover {
+    box-shadow: 1px 1px 1px 1px #838383;
+}
+
+.magnify-image {
+    position: fixed;
+    top: 377px;
+    right: 1220px;
+    height: auto;
+    width: 14px;
+    opacity: 45%;
+}
+
+
+.google-search {
+    color:rgb(37, 37, 37);
+    position: fixed;
+    top: 430px;
+    width: 150px;
+    right: 950px;
+    padding: 5px;
+    opacity: 100%;
+    background: rgba(235, 235, 235, 0.589);
+    border: 2px solid #ffffff;
+    font-size: 15px;
+    z-index: 10;
+    border: solid 2px transparent;
+    padding: 8px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.im-feeling-lucky {
+    color:rgb(37, 37, 37);
+    position: fixed;
+    top: 430px;
+    width: 180px;
+    right: 750px;
+    padding: 5px;
+    opacity: 100%;
+    font-size: 15px;
+    background: rgba(235, 235, 235, 0.589);
+    border: 2px solid #ffffff;
+    z-index: 10;
+    border: solid 2px transparent;
+    padding: 8px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-search {
+    cursor: pointer; 
+    transition: 1ms;  
+}
+
+.google-search:hover {
+    color: black;
+    background: rgb(243, 242, 242);
+    border: 0.5px solid #dadada;
+}
+
+.im-feeling-lucky {
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.im-feeling-lucky:hover {
+    color: black;
+    background: rgb(243, 242, 242);
+    border: 0.5px solid #dadada;
+}
+
+.app-image {
+    opacity: 60%;
+    position: fixed;
+    top: 15px;
+    width: 27px;
+    right: 130px;   
+}
+
+.app-image:hover {
+    cursor: pointer;
+    background-color: rgba(179, 179, 179, 0.671);
+    border-radius: 50%;
+    
+}
+
+.sign-in {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 114, 202);
+    top: 10px;
+    height: 35px;
+    width: 100px;
+    right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: transparent;
+    border-radius: 5px;
+
+}
+
+.sign-in:hover{
+    background-color: rgb(20, 114, 202);
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.underline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+.underline:hover{
+    text-decoration: underline;
+    
+}
+
+/*
+button:hover {
+    color: black;
+    background: rgb(243, 242, 242);
+    border: 0.5px solid #dadada;
+}
+*/
